@@ -75,10 +75,10 @@ const SignupForm =() => {
                     <FormInput  label=" Passwaord"  type='password' required onChange={handelChange} name="password"  value={password}/>
 
                    
-                    <FormInput   label="Confirm Passwaord"  type='password' required  onChange={handelChange} name="confirmPassword"  value={confirmPassword} />
+                    <FormInput   label="Confirm Password"  type='password' required  onChange={handelChange} name="confirmPassword"  value={confirmPassword} />
 
     
-                    <Button type='submit'>Sign up</Button>
+                    <Button  type='submit'>Sign up</Button>
                 </form>
            
         </div>
